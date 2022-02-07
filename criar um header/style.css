@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    padding: 1rem;
+    background-color: #451531;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: .8rem;
+    align-items: center;
+}
+ul li:last-child{
+    background: #19282F;
+    color: white;
+    padding: .8rem;
+    border-radius: 15px;
+}
+img{
+    display: flex;
+    width: 85px;
+    border-radius: 30px;
+    align-items: center;
+}
